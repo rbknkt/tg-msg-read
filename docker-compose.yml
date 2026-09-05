@@ -3,7 +3,7 @@ version: '3.8'
 services:
   bot:
     build: .
-    container_name: business_monitor_bot
+    container_name: tg-msg-read
     restart: unless-stopped
     env_file:
       - .env
