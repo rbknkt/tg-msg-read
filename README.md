@@ -46,6 +46,6 @@
 ```bash
 git clone https://github.com/rbknkt/tg-msg-read.git
 cd tg-msg-read
-cp .env.exapmle .env
+cp .env.example .env
 nano .env
 docker compose up -d --build
